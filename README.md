@@ -69,8 +69,8 @@ Antes de executar os comandos do Terraform, certifique-se de que suas credenciai
 
 1. Clone o repositório:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/RicardoRumi/ec2-s3-rds
+   cd ec2-s3-rds
    ```
 
 2. Copie o arquivo de exemplo de variáveis:
