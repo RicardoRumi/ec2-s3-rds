@@ -12,6 +12,10 @@
     │   ├── main.tf
     │   ├── variables.tf
     │   └── outputs.tf
+    ├── rds/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
     └── s3/
         ├── main.tf
         ├── variables.tf
