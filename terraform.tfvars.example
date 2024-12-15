@@ -1,0 +1,12 @@
+create_state_storage = true 
+aws_region = "us-east-1"
+environment = "dev"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.3.0/24", "10.0.4.0/24"]
+your_ip = "SEU_IP_AQUI/32"  # Exemplo: "192.168.1.1/32"
+bucket_name = "meu-bucket-unico-nome"
+database_name       = "myappdb"
+database_username   = "admin"
+database_password   = "your-secure-password-here"
+rds_instance_class = "db.t3.micro"
